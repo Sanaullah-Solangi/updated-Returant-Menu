@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=\, initial-scale=1.0" />
+    <title>restarent manu</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Jost&family=Nunito+Sans:ital,opsz,wght@0,6..12,700;1,6..12,400&family=Poppins:wght@400;500;600;700&family=Roboto&family=Ubuntu:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assests/style.css" />
+    <link rel="stylesheet" href="./assests/responsive.css" />
+  </head>
+  <body>
+    <!--*================ header section starts ====================-->
+    <header class="header">
+      <div class="logo">
+        <img
+          src="assests/imgaes/logo.png"
+          alt="This is my website logo"
+          title="SanaUllah"
+          loading="lazy"
+        />
+      </div>
+      <nav class="navbar">
+        <button class="log-in btn">log in</button>
+        <button class="sign-in btn">sign in</button>
+      </nav>
+    </header>
+    <!--*============================ Contact section starts ===============================  -->
+
+    <section id="contact" class="section-fluid">
+      <div class="section-heading">
+        <h2 class="heading">Contact us</h2>
+      </div>
+      <div class="contact-container">
+        <div class="contact-location">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3619.4506121185605!2d67.06560817443041!3d24.882606744372875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33faf17e3e713%3A0xc9e0560b08909aa2!2sSMIT!5e0!3m2!1sen!2s!4v1703307771777!5m2!1sen!2s"
+            width="100%"
+            height="350"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <div class="section">
+          <form action="https://formspree.io/f/xqkrkjbw" method="POST">
+            <div class="grid grid-two-columns">
+              <label for="userFirstName">
+                <input
+                  placeholder="Enter First Name"
+                  type="text"
+                  name="userFirstName"
+                  id="userFirstName"
+                />
+              </label>
+
+              <label for="userLastName">
+                <input
+                  placeholder="Enter Last Name"
+                  type="text"
+                  name="userLastName"
+                  id="userLastName"
+                />
+              </label>
+            </div>
+
+            <div>
+              <label for="userEmail">
+                <input
+                  placeholder="Enter your Email"
+                  type="email"
+                  name="email"
+                  id="userEmail"
+                />
+              </label>
+
+              <label for="userNumber">
+                <input
+                  placeholder="Enter Your Mobile Number"
+                  type="number"
+                  name="mobileNumber"
+                  id="userNumber"
+                />
+              </label>
+            </div>
+
+            <div>
+              <label for="addres">
+                <input
+                  type="text"
+                  placeholder="Enter Your Address"
+                  name="address"
+                  id="addres"
+                />
+              </label>
+            </div>
+            <button class="btn submit">Submit</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
